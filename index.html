@@ -22,10 +22,14 @@
   <link rel="icon" type="image/png" href="#" sizes="48x48" />
   <!-- PERFORMANCE -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
+  <link rel="shortcut icon" href="https://bluelearnprod.s3.ap-south-1.amazonaws.com/OTHER/bluelearn_favicon.png"
+    type="image/x-icon">
   <link rel="preload" as="style" href="style.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="style" href="styling.css" />
+  <link rel="stylesheet" href="styling.css" />
   <!-- TITLE -->
-  <title>BlueLearn's Web3 Week</title>
+  <title>BlueLearn Web3 Week</title>
 </head>
 
 <body>
@@ -73,69 +77,46 @@
         </div>
       </div>
     </section>
-    <section class="ui-section-content">
+    <section class="ui-section-feature">
       <div class="ui-layout-container">
-        <div class="ui-section-content__layout ui-layout-grid ui-layout-grid-2">
-          <div class="ui-component-card ui-layout-column-4">
+        <h2 style="text-align: center; margin-bottom: 4rem">
+          <span class="blue">Explore</span> Events
+        </h2>
+        <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-3">
+          <div class="ui-component-card ui-component-card--feature">
             <img
               src="https://bluelearnprod.s3.ap-south-1.amazonaws.com/EVENT_IMAGE/145/2021-12-30T06%3A11%3A06%2B00%3A00-Prashant%20Maurya%20Thumbnail.png"
-              alt="#" loading="lazy" class="ui-component-card--image" />
-            <div class="ui-component-card--content">
-              <h4 class="ui-component-card--title">
+              alt="#" loading="lazy" />
+            <div class="ui-component-card--feature-content">
+              <h4 class="ui-component-card--feature-title">
                 How to become a part of Web3
               </h4>
               <p>with Prashant Maurya (Co-Founder & CEO @ Spheron)</p>
-              <p class="ui-text-note">17th Jan | 7:00 PM</p>
+              <p class="ui-text-note" style="overflow: hidden;">17th Jan | 7:00 PM</p>
             </div>
           </div>
-          <div class="ui-component-card ui-layout-column-4">
+
+          <div class="ui-component-card ui-component-card--feature">
             <img
               src="https://bluelearnprod.s3.ap-south-1.amazonaws.com/EVENT_IMAGE/146/2021-12-30T06%3A15%3A26%2B00%3A00-Web3%20Meetup%20Thumbnail.png"
-              alt="#" loading="lazy" class="ui-component-card--image" />
-            <div class="ui-component-card--content">
-              <h4 class="ui-component-card--title">Web3 Meetup</h4>
+              alt="#" loading="lazy" />
+            <div class="ui-component-card--feature-content">
+              <h4 class="ui-component-card--feature-title">Web3 Meetup!</h4>
               <p>Meet & connect with peers killing in web3 world!</p>
-              <p class="ui-text-note">20th Jan | 8:30 PM</p>
+              <p class="ui-text-note" style="overflow: hidden;">20th Jan | 8:30 PM</p>
             </div>
           </div>
-          <!-- <div class="ui-component-card ui-layout-column-4">
-              <img
-                src="https://bluelearnprod.s3.ap-south-1.amazonaws.com/EVENT_IMAGE/135/2021-12-11T16%3A18%3A50%2B00%3A00-Web%20Development%20Workshop%20Thumbnail.png"
-                alt="#"
-                loading="lazy"
-                class="ui-component-card--image"
-              />
-              <div class="ui-component-card--content">
-                <h4 class="ui-component-card--title">
-                  NFT: Beyond Digital Art
-                </h4>
-                <p>Everything about NFTs With Kashvi.eth</p>
-                <p class="ui-text-note">19th Jan | 8:30 PM</p>
-              </div>
-            </div>
-            <div class="ui-component-card ui-layout-column-4">
-              <img
-                src="https://bluelearnprod.s3.ap-south-1.amazonaws.com/EVENT_IMAGE/135/2021-12-11T16%3A18%3A50%2B00%3A00-Web%20Development%20Workshop%20Thumbnail.png"
-                alt="#"
-                loading="lazy"
-                class="ui-component-card--image"
-              />
-              <div class="ui-component-card--content">
-                <h4 class="ui-component-card--title">What are DAOs?</h4>
-                <p>TBD with Aditya BD</p>
-                <p class="ui-text-note">20th Jan | 8:30 PM</p>
-              </div>
-            </div> -->
-          <div class="ui-component-card ui-layout-column-4">
+
+          <div class="ui-component-card ui-component-card--feature">
             <img
               src="https://bluelearnprod.s3.ap-south-1.amazonaws.com/EVENT_IMAGE/147/2021-12-30T06%3A17%3A06%2B00%3A00-Web3%20Ideathon%20Thumbnail.png"
-              alt="#" loading="lazy" class="ui-component-card--image" />
-            <div class="ui-component-card--content">
-              <h4 class="ui-component-card--title">Web3 Ideathon</h4>
-              <p>
-                Practise hands-on problem solving and win exiciting prizes
-              </p>
-              <p class="ui-text-note">22nd Jan | 5:00 PM</p>
+              alt="#" loading="lazy" />
+            <div class="ui-component-card--feature-content">
+              <h4 class="ui-component-card--feature-title">
+                Web3 Ideathon
+              </h4>
+              <p>Practise hands-on problem solving and win exiciting prizes</p>
+              <p class="ui-text-note" style="overflow: hidden;">22nd Jan | 5:00 PM</p>
             </div>
           </div>
         </div>
@@ -176,6 +157,15 @@
       </div>
     </div>
   </footer>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S8HFEFPBC8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-S8HFEFPBC8');
+  </script>
 </body>
 
 </html>
