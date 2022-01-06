@@ -385,6 +385,17 @@ TABLE OF CONTENT
   
   
   /* CARD */
+
+  #exception-card {
+    visibility: hidden;
+  }
+
+  @media screen and (max-width: 1024px) {
+    #exception-card {
+      display: none;
+    }
+  }
+
   
   .ui-component-card--feature { text-align: center; }
   
@@ -534,6 +545,8 @@ TABLE OF CONTENT
       padding-left: 2.25rem;
       padding-right: 2.25rem;
     }
+
+ 
   
    
   /*--------------------------------------------------------------
@@ -573,7 +586,7 @@ TABLE OF CONTENT
     /*------------------------------------------------------------
     SECTION
     ------------------------------------------------------------*/
-  
+
   
   
   /*--------------------------------------------------------------
@@ -640,7 +653,7 @@ TABLE OF CONTENT
     /*------------------------------------------------------------
     COMPONENT
     ------------------------------------------------------------*/
-  
+    
     /*------------------------------------------------------------
     |
     | BUTTON
@@ -652,7 +665,7 @@ TABLE OF CONTENT
       padding-bottom: 1.125rem;
       padding-top: 1rem;
     }
- 
+
   
     .ui-section-feature {
       padding-bottom: 7.5rem;
