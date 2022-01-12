@@ -386,12 +386,10 @@ TABLE OF CONTENT
   
   /* CARD */
 
-  #exception-card {
-    visibility: hidden;
-  }
+
 
   @media screen and (max-width: 1024px) {
-    #exception-card {
+    #half-card {
       display: none;
     }
   }
